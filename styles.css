@@ -1,86 +1,90 @@
 /* Universal Styles */
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: black;
-    background-color: #ffffff;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0;
+  max-width: 5000px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Jonathan';
+  src: 
+       url('./resources/fonts/Jonathan.ttf') format('truetype');
 }
 
 a:link {
-    color: #353535;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #353535;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #284B63;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #353535;
-  }
+  color: #353535;
+  text-decoration: none;
+}
 
-  body {
-    padding: 0;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
+/* visited link */
+a:visited {
+  color: #353535;
+}
+
+/* mouse over link */
+a:hover {
+  color: #284B63;
+}
+
+/* selected link */
+a:active {
+  color: #353535;
+}
+
+
 
 /* Header */
+
+h1 {
+  font-family: 'Jonathan';
+}
 
 /* Nav */
 
 nav {
-    display: flex;
-    align-items: center;
-    padding: 8px;
-    border: 1px solid #284B63;
-    position: fixed;
-    width: 98.9%;
-    position: sticky;
-    top: 30px;
-  left: 30px;
-  }
-  
-  .navigation-items {
-    display: flex;
-    list-style-type: none;
-    padding: 0 30px;
-    align-items: center;
-    margin: 0;
-    margin-left: auto;
-    cursor: pointer;
-  }
-  
-  .navigation-item {
-    margin: 30px; 
-  }
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #284B63;
+  position: fixed;
+  width: 98%;
+  top: 30px;
+}
 
-  #logo {
-      padding-left: 30px;
-  }
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0 30px;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.navigation-item {
+  margin: 30px; 
+}
+
+#logo {
+    padding-left: 30px;
+}
 
 /* Main */
 
 .info-container {
-    display: flex;
-    padding: 130px;
+  display: flex;
+  padding: 300px;
 }
 
 .portrait {
-    width: 300px;
-    flex-shrink: 0;
+  width: 300px;
+  flex-shrink: 0;
 }
 
 /* Projects */
