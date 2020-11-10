@@ -89,6 +89,8 @@ nav {
 .portrait {
   width: 300px;
   flex-shrink: 0;
+  border-radius: 1000px;
+  margin-left: 30px;
 }
 
 /* Projects */
