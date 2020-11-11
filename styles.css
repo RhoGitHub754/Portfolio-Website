@@ -45,7 +45,7 @@ h1 {
   font-family: 'Jonathan';
   color: #ffffff;
   font-size: 4rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-top: 15px;
 }
 
@@ -84,6 +84,7 @@ nav {
 .info-container {
   display: flex;
   padding: 300px;
+  padding: 200px 0px 100px 100px;
 }
 
 .portrait {
