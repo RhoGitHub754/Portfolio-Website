@@ -82,7 +82,7 @@ nav {
 /* Main */
 
 .info-container {
-  display: flex;
+  display: inline-flex;
   padding: 200px 0px 100px 100px;
 }
 
@@ -96,5 +96,12 @@ nav {
 /* Projects */
 
 /* Skills */
+#skills {
+  padding: 100px 0 0 0;
+}
 
 /* Footer */
+
+footer {
+ padding: 100px 0 0 0;
+}
