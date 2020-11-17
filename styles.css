@@ -9,6 +9,8 @@ html {
   padding: 0;
   max-width: 5000px;
   margin: 0 auto;
+  background: -webkit-linear-gradient(70deg, #284B63  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #ffffff 60%, #D9D9D9 60%);
+
 }
 
 @font-face {
