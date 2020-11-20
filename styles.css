@@ -32,7 +32,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #ffffff;
-  font-family: 'Pacifico', cursive;
 }
 
 /* selected link */
@@ -83,12 +82,16 @@ nav {
   margin: 30px;
 }
 
+.navigation-item:hover {
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+}
 
 /* Main */
 
 .info-container {
   display: inline-flex;
-  padding: 200px 0px 100px 100px;
+  padding: 200px 60px 200px 60px;
 }
 
 .portrait {
