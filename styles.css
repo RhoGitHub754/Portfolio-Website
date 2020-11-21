@@ -116,6 +116,16 @@ strong:hover {
   color: #284B63;
 }
 
+.section-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+.section-title:hover {
+  color: #284B63;
+}
+
 /* Projects */
 
 img.project-image {
